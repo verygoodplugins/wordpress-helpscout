@@ -3,7 +3,7 @@ WordPress Dynamic Data for HelpScout
 
 WordPress Dynamic Data for HelpScout is a WordPress plugin that will show WordPress user information right from your HelpScout dashboard.
 
-The content that is displayed can be edited by modifying the /views/output.php file, or by using the `wp_helpscout_html_output` filter.
+The content that is displayed can be edited by modifying the `/views/output.php` file, or by using the `wp_helpscout_html_output` filter.
 
 
 ### Installation

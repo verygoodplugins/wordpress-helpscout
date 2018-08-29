@@ -32,11 +32,9 @@
 		<?php else : ?>
 
 			<?php $integrations = explode(', ', $integrations); ?>
-			<ul class="unstyled">
-				<?php foreach( $integrations as $integration ) : ?>
-					<li><span class="muted"><?php echo ucwords( str_replace('-', ' ', $integration) ); ?></span></li>
-				<?php endforeach; ?>
-			</ul>
+			<?php foreach( $integrations as $integration ) : ?>
+				<span class="badge green"><?php echo ucwords( str_replace('-', ' ', $integration) ); ?></span> 
+			<?php endforeach; ?>
 
 		<?php endif; ?>
 	</div>
@@ -54,7 +52,7 @@
 
 			<ul class="unstyled">
 				<?php foreach( $tags as $tag ) : ?>
-					<li><span class="muted"><?php echo wp_fusion()->user->get_tag_label( $tag ); ?></span></li>
+					<li><span class="badge blue"><?php echo wp_fusion()->user->get_tag_label( $tag ); ?></span></li>
 				<?php endforeach; ?>
 			</ul>
 
