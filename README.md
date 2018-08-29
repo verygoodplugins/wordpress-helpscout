@@ -5,6 +5,8 @@ WordPress Dynamic Data for HelpScout is a WordPress plugin that will show WordPr
 
 The content that is displayed can be edited by modifying the `/views/output.php` file, or by using the `wp_helpscout_html_output` filter.
 
+See [this blog post](https://verygoodplugins.com/fun/wordpress-dynamic-data-for-helpscout/) for a screenshot.
+
 
 ### Installation
 
