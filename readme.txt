@@ -7,11 +7,11 @@ Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-WordPress Dynamic Data for HelpScout. Shows WordPress user information right from your HelpScout interface.
+WordPress Dynamic Data for HelpScout. Shows WordPress user information right in your HelpScout interface.
 
 == Description ==
 
-WordPress Dynamic Data for HelpScout is a WordPress plugin that will show WordPress user information right from your HelpScout dashboard.
+WordPress Dynamic Data for HelpScout is a WordPress plugin that will show WordPress user information right in your HelpScout dashboard.
 
 The content that is displayed can be edited by modifying the /views/output.php file, or by using the wp_helpscout_html_output filter.
 
